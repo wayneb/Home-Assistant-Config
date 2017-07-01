@@ -1,0 +1,104 @@
+#VIEWS#
+#  default_view:
+#    view: yes
+#    entities:
+#      - group.alarm_status
+#      - group.bathroom
+#      - group.bedroom
+#      - group.cameras
+#      - group.living_room
+#      - group.kitchen
+#      - group.brawler
+    
+  HomeAssistant-Control_view:
+    view: yes
+    icon: mdi:server
+    entities:
+      - group.speedtest_stats_card
+      - group.weather_card
+      
+  Family-Location_view:
+    icon: mdi:map-marker-radius
+    view: yes
+    entities:
+      - group.family_locations_card
+
+  MyMedia_Content_view:
+    view: yes
+    icon: mdi:server
+    entities:
+      - group.speedtest_stats_card
+      
+  Climate_view:
+    name: Climate and Enviorment
+    icon: mdi:air-conditioner
+    view: yes
+    entities:
+      - group.family_locations_card
+
+  Gaming:
+    name: Gaming
+    icon: mdi:xbox-controller
+    view: yes
+    entities:
+      - group.steam_card
+      - group.twitch_card
+
+#GROUPS#
+  family_locations_card:
+    name: Family Locations
+    icon: mdi:map-marker-radius
+    view: no
+    entities:
+      - device_tracker.waynes_cell
+      - device_tracker.jessies_cell
+      - device_tracker.mom_cell
+      - device_tracker.sr_cell
+    
+##Speedtest Stats#
+  speedtest_stats_card:
+    name: Speedtest
+    icon: mdi:server
+    view: no
+    entities:
+      - sensor.speedtest_download
+      - sensor.speedtest_ping
+      - sensor.speedtest_upload
+ 
+##Weather Information#
+  weather_card:
+    name: Weather
+    icon: mdi:server
+    view: no
+    entities:
+      - sensor.dark_sky_temperature
+      - sensor.dark_sky_cloud_coverage
+      - sensor.dark_sky_dew_point
+      - sensor.dark_sky_humidity
+      - sensor.dark_sky_nearest_storm_bearing
+      - sensor.dark_sky_nearest_storm_distance
+      - sensor.dark_sky_precip
+      - sensor.dark_sky_precip_intensity
+      - sensor.dark_sky_precip_probability
+      - sensor.dark_sky_temperature
+      - sensor.dark_sky_wind_bearing
+      - sensor.dark_sky_wind_speed
+      
+#Steam Users
+  steam_card:
+    name: Steam Users Gaming
+    icon: mdi:steam_card
+    view: no
+    entities:
+      - sensor.steam_76561197971090544
+      - sensor.steam_76561198003076510
+      
+#Twitch Users
+  twitch_card:
+    name: Twitch Users Streaming
+    icon: mdi:twitch_card
+    view: no
+    entities:
+      - sensor.barnacules
+      - sensor.nixiepixel
+      - sensor.pdxlan     

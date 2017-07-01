@@ -1,0 +1,37 @@
+#  - platform: darksky
+#    api_key: !secret darksky_api
+#    update_interval: '01:00'
+#    monitored_conditions:
+#      - nearest_storm_distance
+#      - nearest_storm_bearing
+#      - precip_type
+#      - precip_intensity
+#      - precip_probability
+#      - temperature
+#     - apparent_temperature
+#     - dew_point
+#     - wind_speed
+#     - wind_bearing
+#     - humidity
+    
+#  - platform: speedtest
+#    hour:
+#      - 8
+#      - 12
+#      - 16
+#      - 20
+#      - 23
+#    monitored_conditions:
+#      - ping
+#      - download
+#     - upload      
+
+#  - platform: twitch
+#    channels:
+#      - barnacules
+   
+#  - platform: steam_online
+#    api_key: !secret steam_api
+#    accounts:
+#      - 76561197971090544
+     

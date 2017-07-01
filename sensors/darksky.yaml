@@ -1,0 +1,16 @@
+platform: darksky
+api_key: !secret darksky_api
+update_interval: '01:00'
+monitored_conditions:
+  - nearest_storm_distance
+  - nearest_storm_bearing
+  - precip_type
+  - precip_intensity
+  - precip_probability
+  - temperature
+  - apparent_temperature
+  - dew_point
+  - wind_speed
+  - wind_bearing
+  - humidity
+  

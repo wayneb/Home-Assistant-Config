@@ -1,0 +1,11 @@
+  device_tracker.waynes_cell:
+    friendly_name: Wayne's Cell
+  sensor.speedtest_ping:
+    icon: mdi:clock
+    friendly_name: "Ping"
+  sensor.speedtest_download:
+    icon: mdi:arrow-down
+    friendly_name: "Download"
+  sensor.speedtest_upload:
+    icon: mdi:arrow-up
+    friendly_name: "Upload"
