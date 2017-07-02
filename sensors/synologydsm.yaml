@@ -1,9 +1,9 @@
-#platform: synologydsm
-#host: !secret synologydsm-host
-#username: !secret synology-user
-#password: !secret synology-password
-#monitored_conditions:
-#  - cpu_total_load
-#  - memory_real_usage
-#  - network_up
-   
+platform: synologydsm
+host: !secret synologydsm-host
+username: !secret synology-user
+password: !secret synology-password
+monitored_conditions:
+  - cpu_total_load
+  - memory_real_usage
+  - network_up
+  

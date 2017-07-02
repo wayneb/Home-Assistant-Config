@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo su -s /bin/bash homeassistant
+
 cd /home/homeassistant/.homeassistant
 source /srv/homeassistant/bin/activate
 hass --script check_config
