@@ -9,3 +9,7 @@
   sensor.speedtest_upload:
     icon: mdi:arrow-up
     friendly_name: "Upload"
+  sensor.dark_sky_apparent_temperature:
+    friendly_name: "Temperature"
+  sensor.ups:
+    friendly_name: "United Parcel Service"

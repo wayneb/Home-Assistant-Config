@@ -21,7 +21,7 @@
     icon: mdi:map-marker-radius
     view: yes
     entities:
-      - group.family_locations_card
+      - group.family_card
 
   MyMedia_Content_view:
     view: yes
@@ -34,7 +34,7 @@
     icon: mdi:air-conditioner
     view: yes
     entities:
-      - group.family_locations_card
+      - group.family
 
   Gaming:
     name: Gaming
@@ -45,8 +45,8 @@
       - group.twitch_card
 
 #GROUPS#
-  family_locations_card:
-    name: Family Locations
+  family_card:
+    name: Family
     icon: mdi:map-marker-radius
     view: no
     entities:
@@ -86,7 +86,7 @@
       
 #Steam Users
   steam_card:
-    name: Steam Users Gaming
+    name: Steam Friends Online
     icon: mdi:steam_card
     view: no
     entities:
