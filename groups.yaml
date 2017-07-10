@@ -101,4 +101,15 @@
     entities:
       - sensor.barnacules
       - sensor.nixiepixel
-      - sensor.pdxlan     
+      - sensor.pdxlan
+      
+  #Have I Been Pawned
+  haveibeenpawned_card:
+    name: Have I Been Pawned
+    icon: mdi:twitch_card
+    view: no
+    entities:
+      - sensor.breaches_waynebowlesgmailcom
+      - sensor.nixiepixel
+      - sensor.pdxlan
+      

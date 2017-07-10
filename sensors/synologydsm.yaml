@@ -1,5 +1,6 @@
 platform: synologydsm
-host: !secret synologydsm-host
+host: !secret synology-host
+port: !secret synology-port
 username: !secret synology-user
 password: !secret synology-password
 monitored_conditions:
