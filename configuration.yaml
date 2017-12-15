@@ -87,19 +87,7 @@ device_tracker:
 #  host: 192.168.1.30
 #  port: 1883
 #  username: ha
-# password: Compwayne150051smhs0215wb1
-
-
-
-########################
-############
-######
-###
-#Test
-###
-######
-############
-#########################     
+# password: Compwayne150051smhs0215wb1    
       
 # Using Google for Text to speech
 tts:
