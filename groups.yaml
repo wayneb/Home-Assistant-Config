@@ -50,7 +50,7 @@
     icon: mdi:map-marker-radius
     view: no
     entities:
-      - device_tracker.waynes_cell
+      - device_tracker.jrs_cell
       - device_tracker.jessies_cell
       - device_tracker.mom_cell
       - device_tracker.sr_cell
@@ -92,6 +92,7 @@
     entities:
       - sensor.steam_76561197971090544
       - sensor.steam_76561198003076510
+      - sensor.steam_76561198306754724
       
 #Twitch Users
   twitch_card:
@@ -101,7 +102,8 @@
     entities:
       - sensor.barnacules
       - sensor.nixiepixel
-      - sensor.pdxlan
+      - sensor.emmalayne
+      - sensor.pdxla
       
   #Have I Been Pawned
   haveibeenpawned_card:

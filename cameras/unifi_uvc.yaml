@@ -1,0 +1,6 @@
+﻿#camera:
+#  - platform: uvc
+#    nvr: !secret unifi-uvc-ipaddr
+#    key: !secret unifi-uvc-api
+#    port: 7080
+#    password: !secret unifi-uvc-camera-password

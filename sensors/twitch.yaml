@@ -1,6 +1,7 @@
-platform: twitch
+﻿platform: twitch
 channels:
   - barnacules
   - nixiepixel
+  - emmalayne
   - pdxlan
   

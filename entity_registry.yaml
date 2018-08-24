@@ -1,0 +1,9 @@
+media_player.dining_room_speaker:
+  platform: cast
+  unique_id: ec5b8514-1b8a-d97e-1be0-410ee1a0f231
+media_player.jrs_bedroom_speaker:
+  platform: cast
+  unique_id: a7cb0366-d948-ff60-c41b-ee3f6be00e35
+media_player.jrs_bedroom:
+  platform: cast
+  unique_id: 3aa6b4fa-5137-26c2-e828-4921989d2f7b

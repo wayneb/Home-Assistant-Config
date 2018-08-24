@@ -1,0 +1,10 @@
+#switch:
+  #platform: mqtt
+  #name: "Computer Desk Lamp"
+  #state_topic: "smartthings/Computer Desk Lamp/switch"
+  #command_topic: "smartthings/Computer Desk Lamp/switch"
+  #brightness_state_topic: "smartthings/Computer Desk Lamp/level"
+  #brightness_command_topic: "smartthings/Computer Desk Lamp/level"
+  #payload_on: "on"
+  #payload_off: "off"
+  #retain: true
